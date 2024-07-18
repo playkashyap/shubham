@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import withRouter from './hooks/withRouter';
-import Home from "./pages/Home";
+import { Home } from "./pages/Home/Home";
 import { Socialicons } from "./components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
