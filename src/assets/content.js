@@ -9,7 +9,7 @@ const introdata = {
     animated: {
         first: "I love coding",
         second: "I code cool websites",
-        third: "I develop Scalable apps",
+        third: "I love Gaming",
     },
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
@@ -136,14 +136,14 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
+    YOUR_EMAIL: "jackwill021@gmail.com",
+    YOUR_FONE: "+917080364716",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_xiiolv9",
+    YOUR_TEMPLATE_ID: "template_kjxam6l",
+    YOUR_USER_ID: "RuQOAfNgQ3-mrPa-6",
 };
 
 const socialprofils = {
