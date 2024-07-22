@@ -1,0 +1,5 @@
+.canvas {
+    background-color: var(--primary-color);
+    width: 100vw !important;
+    height: 100vh !important;
+}
