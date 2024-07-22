@@ -16,7 +16,7 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "abit about my self",
+    title: "About my self",
     aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
 };
 const worktimeline = [{
@@ -37,11 +37,11 @@ const worktimeline = [{
 ];
 
 const skills = [{
-    name: "Python",
+    name: "HTML",
     value: 90,
 },
 {
-    name: "Djano",
+    name: "CSS",
     value: 85,
 },
 {
@@ -50,12 +50,16 @@ const skills = [{
 },
 {
     name: "React",
-    value: 60,
+    value: 70,
 },
 {
-    name: "Jquery",
+    name: "Angular",
     value: 85,
 },
+{
+    name: "Express",
+    value: 75,
+}
 ];
 
 const services = [{
