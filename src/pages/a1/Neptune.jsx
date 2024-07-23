@@ -21,16 +21,6 @@ export function Model(props) {
   const { nodes, materials, animations } = useGLTF('/neptune.glb')
   const { actions } = useAnimations(animations, group)
 
-  // React.useEffect(() => {
-  //   if (ref.current) {
-
-  //     const tiltAngle = 28.32 * (Math.PI / 180);
-  //     // Apply the tilt to the model
-  //     ref.current.rotation.x = tiltAngle; 
-
-  //   }
-  // }, [])
-
   useFrame(() => {
     if (ref.current) {
       ref.current.rotation.y += 0.01;
