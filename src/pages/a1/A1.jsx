@@ -17,7 +17,6 @@ export const A1 = () => {
             >
                 <ambientLight intensity={1.25} />
                 <ambientLight intensity={0.1} />
-                <directionalLight intensity={0.4} />
                 <Stars />
                 <Suspense fallback={null}>
                     <group rotation={[0, 0, tiltAngle]}>
