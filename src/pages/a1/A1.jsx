@@ -17,9 +17,7 @@ export const A1 = () => {
                 <ambientLight intensity={1.25} />
                 <ambientLight intensity={0.1} />
                 <Suspense fallback={null}>
-                    <group rotation={[0, 0, tiltAngle]}>
-                        <Model position={[0.1, 2, 0]} />
-                    </group>
+                        <Model position={[0.1, 2, 0]} angle={[0, 0, tiltAngle]}/>
                 </Suspense>
                 <OrbitControls enableZoom={false} />
             </Canvas>
