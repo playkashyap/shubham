@@ -2,7 +2,6 @@ import React, { Suspense } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import { Model } from './Neptune';
-import Stars from './stars';
 
 import "./style.css";
 export const A1 = () => {
@@ -17,7 +16,6 @@ export const A1 = () => {
             >
                 <ambientLight intensity={1.25} />
                 <ambientLight intensity={0.1} />
-                <Stars />
                 <Suspense fallback={null}>
                     <group rotation={[0, 0, tiltAngle]}>
                         <Model position={[0.1, 2, 0]} />
