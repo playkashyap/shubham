@@ -105,6 +105,7 @@ const socialprofils = {
     linkedin: "https://www.linkedin.com/in/shubham7080/",
     twitter: "https://x.com/shubham8213",
     instagram: "https://instagram.com/playkashyap",
+    youtube: "https://www.youtube.com/@playkashyap",
 };
 export {
     meta,
