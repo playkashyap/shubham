@@ -34,7 +34,7 @@ export const Home = () => {
                     <meta name="description" content={meta.description} />
                 </Helmet>
                 <div className="intro_sec d-block d-lg-flex align-items-center ">
-                    <div className="h_bg-image order-1 order-lg-2 h-100" style={{marginTop : '100px'}}>
+                    <div className="h_bg-image order-1 order-lg-2 h-100" style={{ marginTop: '100px' }}>
                         <svg viewBox="0 0 800 800" style={{ fill: "none", stroke: "red" }}>
                             <g id="bg" />
                             <g id="graphic">
@@ -292,6 +292,7 @@ export const Home = () => {
                                                 introdata.animated.first,
                                                 introdata.animated.second,
                                                 introdata.animated.third,
+                                                introdata.animated.fourth,
                                             ],
                                             autoStart: true,
                                             loop: true,
@@ -300,6 +301,7 @@ export const Home = () => {
                                     />
                                 </h1>
                                 <p className="mb-1x">{introdata.description}</p>
+                                <p className="mb-1x">{introdata.description2}</p>
                                 <div className="intro_btn-action pb-5">
                                     <Link to="/portfolio" className="text_2">
                                         <div id="button_p" className="ac_btn btn ">

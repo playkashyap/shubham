@@ -17,6 +17,7 @@ button.btn.ac_btn:hover {
 }
 
 .loading-bar {
+
     position: fixed;
     top: 0;
     left: 0;

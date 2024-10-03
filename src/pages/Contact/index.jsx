@@ -1,4 +1,4 @@
-import{ useState } from "react";
+import { useState } from "react";
 import emailjs from '@emailjs/browser';
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -108,13 +108,15 @@ export const ContactUs = () => {
                             )}
                         </address>
                         <p>{contactConfig.description}</p>
+                        <p>{contactConfig.description2}</p>
                     </Col>
                     <Col lg="7" className="d-flex align-items-center">
                         <form onSubmit={handleSubmit} className="contact__form w-100">
                             <Row>
                                 <Col lg="6" className="form-group">
+                                    <label htmlFor="name">Name</label>
                                     <input
-                                        className="form-control"
+                                        className="form-control .contact__form rounded-0"
                                         id="name"
                                         name="name"
                                         placeholder="Name"
@@ -125,8 +127,9 @@ export const ContactUs = () => {
                                     />
                                 </Col>
                                 <Col lg="6" className="form-group">
+                                    <label htmlFor="email">Email</label>
                                     <input
-                                        className="form-control rounded-0"
+                                        className="form-control rounded-0 .contact__form"
                                         id="email"
                                         name="email"
                                         placeholder="Email"
@@ -137,8 +140,9 @@ export const ContactUs = () => {
                                     />
                                 </Col>
                             </Row>
+                            <label htmlFor="message">Message</label>
                             <textarea
-                                className="form-control rounded-0"
+                                className="form-control rounded-0 .contact__form"
                                 id="message"
                                 name="message"
                                 placeholder="Message"
